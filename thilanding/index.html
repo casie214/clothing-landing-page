@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="section1">
+
+        <div id="fixNav">
+
+
+            <center>
+                <img src="head.png" width="30%" height="30%">
+                <img src="logo2.jpg" width="5%" height="5%">
+                <div id="nav">
+                    <ul class="menu1">
+                        <li><a href="#section1">Home</a></li>
+                        <li><a href="#section2">About</a></li>
+                        <li><a href="#section3">Product</a></li>
+                        <li><a href="#section4">Feedback</a></li>
+                        <li><button class="nut1" type="button" onclick="dieuhuong()">Buy now</button></li>
+                    </ul>
+                </div>
+            </center>
+        </div>
+
+        <main>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+
+                    <img src="banner.png" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="banner2.jpg" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="banner3.png" style="width:100%">
+
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+        </main>
+    </section>
+
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="container">
+        <div class="element hidden">
+            <div class="tab intro">
+                <div class="box">
+                    <i class="fa-solid fa-truck-fast fa-lg" style="color: white; padding-right: 10px;"></i>
+                    <a href="#">Free Delivery<br>from 50đ</a>
+                </div>
+                <div class="box2">
+                    <i class="fa fa-refresh fa-lg" aria-hidden="true" style="color: white; padding-right: 10px;"></i>
+                    <a href="#">Free Returns<br>rapid</a>
+                </div>
+
+                <div class="box3">
+                    <i class="fa-brands fa-teamspeak fa-lg" style="color: white; padding-right: 10px;"></i>
+                    <a href="#">Custemer support<br>than 5 seconds</a>
+                </div>
+
+                <div class="box4">
+                    <i class="fa fa-tags fa-lg" aria-hidden="true" style="color: white; padding-right: 10px;"></i>
+                    <a href="#">Discount<br>99%</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section id="section2">
+        <div class="abt">
+            <div class="container">
+                <div class="element hidden">
+                    <img src="logo2.jpg" width="16%" height="16%" align="left">
+                    <div class="ndabt">
+                        <h1>ABOUT US</h1>
+                        <p>
+                            "Tại [Fashion Hub], chúng tôi luôn đặt chất lượng lên hàng đầu và cam kết
+                            mang đến cho quý khách hàng những sản phẩm và dịch vụ tốt nhất. Sự tin tưởng của bạn là
+                            động lực để chúng tôi không ngừng hoàn thiện và phát triển."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="top2024">
+        <h1>TOP 2024</h1>
+        <div class="alb1">
+            <div class="container">
+                <div class="element hidden">
+                    <img class="anhsp" src="anh1.png" width="30%" height="30%" style="border-radius: 5px;" align="left">
+                    <img class="anhsp" src="anh2.png" width="30%" height="30%"
+                        style="margin-left: 5%; margin-bottom: 2%; border-radius: 5px;">
+                    <img class="anhsp" src="anh4.png" width="30%" height="30%" style="border-radius: 5px;"
+                        align="right">
+                    <img class="anhsp" src="anh3.png" width="30%" height="30%" style="margin-left: 5%; border-radius: 5px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sale">
+
+        <img src="banner4.png" width="50%" height="50%" align="left">
+        <div class="tg">
+            <h1>TIME FOR SALE</h1>
+        </div>
+        <div id="countdown1" class="countdown">
+            <div class="time-box">
+                <span id="days1">10</span>
+                <div class="label">DAYS</div>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-box">
+                <span id="hours1">5</span>
+                <div class="label">HR</div>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-box">
+                <span id="minutes1">25</span>
+                <div class="label">MIN</div>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-box">
+                <span id="seconds1">47</span>
+                <div class="label">SEC</div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="anhsale">
+        <div class="container">
+            <div class="element hidden">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="sale.png" width="70%" height="70%" align="right">
+                        </td>
+                        <td rowspan="3">
+                            <img src="50.png" width="70%" height="70%" align="left">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="sale.png" width="70%" height="70%" align="right">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="sale.png" width="70%" height="70%" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <center><button class="nut2" type="button" onclick="dieuhuong()">Buy now</button></center>
+    </div>
+
+
+    <section id="section3">
+        <div class="productoverview">
+            <h1>PRODUCT OVERVIEW</h1>
+        </div>
+        <div>
+            <table class="bang2">
+                <tr>
+                    <td>
+                        <div class="container">
+                            <div class="element hidden">
+                                <img id="spov" src="sp1.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="element hidden">
+                                <img id="spov" src="sp2.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="element hidden">
+                                <img id="spov" src="sp3.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="element hidden">
+                                <img id="spov" src="sp4.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <h5>BLACK T-SHIRT</h5>
+                            <h5 class="gia"> 100.000</h5>
+                            <button class="nut3" type="button" onclick="dieuhuong()">Buy now</button>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <h5>BLACK T-SHIRT</h5>
+                            <h5 class="gia"> 100.000</h5>
+                            <button class="nut3" type="button" onclick="dieuhuong()">Buy now</button>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <h5>BLACK T-SHIRT</h5>
+                            <h5 class="gia"> 100.000</h5>
+                            <button class="nut3" type="button" onclick="dieuhuong()">Buy now</button>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <h5>BLACK T-SHIRT</h5>
+                            <h5 class="gia"> 100.000</h5>
+                            <button class="nut3" type="button" onclick="dieuhuong()">Buy now</button>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container">
+                            <div class="element hidden">
+                                <img id="spov" src="sp5.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="element hidden">
+                                <img id="spov" src="sp6.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="element hidden">
+                                <img id="spov" src="sp7.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="element hidden">
+                                <img id="spov" src="sp8.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <h5>BLACK T-SHIRT</h5>
+                            <h5 class="gia"> 100.000</h5>
+                            <button class="nut3" type="button" onclick="dieuhuong()">Buy now</button>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <h5>BLACK T-SHIRT</h5>
+                            <h5 class="gia"> 100.000</h5>
+                            <button class="nut3" type="button" onclick="dieuhuong()">Buy now</button>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <h5>BLACK T-SHIRT</h5>
+                            <h5 class="gia"> 100.000</h5>
+                            <button class="nut3" type="button" onclick="dieuhuong()">Buy now</button>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <h5>BLACK T-SHIRT</h5>
+                            <h5 class="gia"> 100.000</h5>
+                            <button class="nut3" type="button" onclick="dieuhuong()">Buy now</button>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="section4">
+        <div class="feedback">
+            <center>
+                <h1>FEEDBACK</h1>
+            </center>
+            <div class="container">
+                <div class="element hidden">
+                    <table border="1" class="bang4">
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <h5>
+                                    "The clothes here are all excellent,
+                                    it's a pity that I've never seen a clothing website like this."
+                                </h5>
+                                <i class="fa-solid fa-circle-user fa-lg"></i>
+                            </td>
+                            <td>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <h5>
+                                    "The clothes here are all excellent,
+                                    it's a pity that I've never seen a clothing website like this."
+                                </h5>
+                                <i class="fa-solid fa-circle-user fa-lg"></i>
+                            </td>
+                            <td>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: goldenrod;"></i>
+                                <h5>
+                                    "The clothes here are all excellent,
+                                    it's a pity that I've never seen a clothing website like this."
+                                </h5>
+                                <i class="fa-solid fa-circle-user fa-lg"></i>
+                            </td>
+        
+                        </tr>
+        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="formdangky">
+        
+        <div class="cottrai">
+            <center>
+                <h2 class="dky" style="font-weight: bold;">ĐĂNG KÝ NHẬN KHUYẾN MÃI</h2>
+                <div id="countdown2" class="countdown">
+                    <div class="time-box">
+                        <span id="days2">10</span>
+                        <div class="label">DAYS</div>
+                    </div>
+                    <div class="separator">:</div>
+                    <div class="time-box">
+                        <span id="hours2">5</span>
+                        <div class="label">HR</div>
+                    </div>
+                    <div class="separator">:</div>
+                    <div class="time-box">
+                        <span id="minutes2">25</span>
+                        <div class="label">MIN</div>
+                    </div>
+                    <div class="separator">:</div>
+                    <div class="time-box">
+                        <span id="seconds2">47</span>
+                        <div class="label">SEC</div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        
+        <form>
+            <input type="text" placeholder="Họ và tên">
+            <br>
+            <input type="text" placeholder="Số điện thoại">
+            <br>
+            <input type="text" placeholder="Email">
+            <center><button class="nut2" type="button">Order now</button></center>
+        </form>
+    </div>
+
+
+    <div class="footer">
+        <table class="bangfooter">
+            <tr>
+                <td colspan="3">
+                    <img src="logofoot.png" width="15%" height="15%" align="left">
+                    <div class="menufoot">
+                        <ul class="menu3">
+                            <li><a href="#section1">Home</a></li>
+                            <li><a href="#section2">About</a></li>
+                            <li><a href="#section3">Product</a></li>
+                            <li><a href="#section4">Feedback</a></li>
+                        </ul>
+                    </div>
+
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p
+                        style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        "Tại [Fashion Hub], chúng tôi luôn đặt chất lượng lên hàng đầu và cam kết
+                        mang đến cho quý khách hàng những sản phẩm và dịch vụ tốt nhất. Sự tin tưởng của bạn là
+                        động lực để chúng tôi không ngừng hoàn thiện và phát triển."
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="lovcon">
+                        <div class="loc">
+                            <center><i class="fa-solid fa-location-dot fa-lg" style="color: goldenrod;"></i>
+                                <h5 style="font-size: large; font-weight: bold;">
+                                    Location
+                                </h5>
+                                <h5>
+                                    13 Trịnh Văn Bô
+                                    Nam từ Liêm Hà Nội
+                                </h5>
+                                <br>
+                                <br>
+                            </center>
+                        </div>
+                        <div class="con">
+                            <center><i class="fa-solid fa-phone fa-lg" style="color: goldenrod;"></i>
+                                <h5 style="font-size: large; font-weight: bold;">
+                                    Contact
+                                </h5>
+                                <h5>
+                                    1900 100
+                                    Nhom1@fpt.edu.vn
+                                </h5>
+                                <br>
+                                <i class="fa-brands fa-facebook fa-xl" style="color: white;"></i>
+                                <i class="fa-brands fa-facebook-messenger fa-xl" style="color: white;"></i>
+                            </center>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <hr>
+                    <center>
+                        <h5>
+                            Copyright ©2024 All rights reserved
+                        </h5>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+<script src="app.js"></script>
